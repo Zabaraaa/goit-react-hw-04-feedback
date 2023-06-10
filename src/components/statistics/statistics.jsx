@@ -17,6 +17,6 @@ Stat.propTypes = {
     good: PropTypes.number.isRequired,
     neutral: PropTypes.number.isRequired,
     bad: PropTypes.number.isRequired,
-    countTotalFeedback: PropTypes.number.isRequired,
-    countPositiveFeedbackPercentage: PropTypes.number.isRequired,
+    countTotalFeedback: PropTypes.func.isRequired,
+    countPositiveFeedbackPercentage: PropTypes.func.isRequired,
 }
